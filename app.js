@@ -19,7 +19,7 @@ document.addEventListener('scroll', () => {
 	}
 });
 
-menu_item.forEach((item) => {
+menu.forEach((item) => {
 	item.addEventListener('click', () => {
 		hamburger.classList.toggle('active');
 		mobile.classList.toggle('active');

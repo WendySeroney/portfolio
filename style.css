@@ -140,7 +140,7 @@ p {
 	letter-spacing: initial;
 }
 #header .nav-list ul li:hover a {
-	color:crimson
+	color:rgb(243, 139, 21)
 }
 #header .hamburger {
 	height: 60px;
@@ -533,12 +533,6 @@ p {
 	}
 	/* End Hero */
 
-	/* Services Section */
-	#services .service-bottom .service-item {
-		flex-basis: 45%;
-		margin: 2.5%;
-	}
-	/* End Services Section */
 
 	/* Project */
 	#projects .project-item {
@@ -645,10 +639,5 @@ p {
 		display: none;
 	}
 	/* End header */
-
-	#services .service-bottom .service-item {
-		flex-basis: 22%;
-		margin: 1.5%;
-	}
 }
 /* End  Media Query For Desktop */
